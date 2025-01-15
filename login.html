@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<title>23CEK028</title>
+<head>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <script>
+        function validateForm() {
+var email = document.getElementById('email').value;
+var password = document.getElementById('password').value;
+if (email === '' || password === '') {
+alert('Please fill in all fields');
+return false;
+}
+return true;
+}
+    </script>
+    <table>
+        <form>
+            <tr>
+                <td id="td1">Login First</td>
+            </tr>
+            <tr>
+                <td class="td2">E-mail<input type="email" id="email"></td>
+            </tr>
+            <tr>
+                <td class="td2">Password<input type="password" id="password"></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" checked>Remember me</td>
+            </tr>
+            <tr>
+                <td><a href="main.html">
+                    <input class="in1" type="button" value="Login" onclick="validateForm()"></a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Already haven't account <a href="signin.html">Sign in</a>
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>

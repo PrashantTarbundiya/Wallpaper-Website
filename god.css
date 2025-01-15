@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.g-item{
+    width: 100%;
+}
+.g-item .i{
+    width: 318px;
+    height: 318px;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.g-item .i img{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+.menu a{
+    font-family: sans-serif;
+    padding: 10px 20px;
+    color: black;
+    text-decoration:none;
+    font-size: 20px;
+}
+.menu a:first-child{
+    color: crimson;
+}
+.menu a:hover{
+    color: crimson;
+    font-size: 26px;
+}
+.icon i{
+    font-size: 20px;
+}
+.icon i:hover{
+    color: crimson;
+    font-size: 26px;
+}
+.icon a{
+    font-family: sans-serif;
+    text-decoration:none;
+    font-size: 20px;
+    background: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.icon a:hover{
+    color: crimson;
+    font-size: 26px;
+}
+.sec{
+    color: white;
+    max-width: 700px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.gallery{
+    padding: 100px;
+}
+.g-menu{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.g-menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5 ease;
+    color:darkcyan;
+}
+.g-menu ul li:hover{
+    color: white;
+    background: #e74c3c;
+    border-radius: 8px;
+}
+li.active{
+    color: white;
+    background: #e74c3c;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.g-item .i video{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
